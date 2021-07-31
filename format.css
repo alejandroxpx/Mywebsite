@@ -17,11 +17,17 @@ a {
     color:#ffffff
 }
 .home{
-    background-image: url('nyberg_moon.jpg');
+    
+    background-image: url('/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/nyberg_moon.jpg');
+    background-size: cover;
+
 }
 .openingmessage{
-    padding-top: 500px;
+    padding-top: 400px;
     padding-bottom: 500px;
     text-align: center;
     color:#ffffff;
+}
+h1{
+    font-size: 50px;
 }
