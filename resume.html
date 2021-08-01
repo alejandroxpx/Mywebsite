@@ -10,33 +10,38 @@
             }
             .resumeimage{
                 padding-left: 50px;
-                display: grid;
+                display: flex;
             
             }
             h2{
                 text-align: center;
                 display: grid;
             }
-            .grid{
-                display: grid;
-                padding: 20px;
-                grid-column-gap: 20px;
-                grid-row-gap: 10px;
-                grid-template-columns: 200px 200px auto;
-            }
-            .grid-item{
-                font-size: 20px;
-                padding: 20px;
-                text-align: center;
-            }
             li{
-                font-size: 12px;
+                font-size: 16px;
                 text-align: left;
                 text-indent: 20px;
+                line-height:2;
             }
             h5{
                 text-align: left;
+                font-weight: bold;
             }
+            img{
+                width: 500px;
+                height: auto;
+            }
+            .column{
+                float: left;
+                width: 50%;
+            }
+            .row:after{
+                padding-top: 100px;
+                content: "";
+                display: table;
+                clear: both;
+            }
+ 
         </style>
     </head>
     <body>
@@ -48,10 +53,12 @@
             <a href="contact.html">Contact</a>
         </div> 
 
-        <div class="grid"></div>
-            <div class="grid-item"><img class="resumeimage" src="/Users/alejandropasillas/Desktop/self_portrait.jpeg" alt="Me"></div>
+        <div class="row"></div>
+            <div class="column">
+                <img class="resumeimage" src="/Users/alejandropasillas/Desktop/self_portrait.jpeg" alt="Me">
+            </div>
 
-            <div class="grid-item"><h3><a  href="/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/Pasillas_Resume.pdf">Resume</a></h2>
+            <div class="column"><h3><a  href="/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/Pasillas_Resume.pdf">Resume</a></h2>
             
             <ul> 
                 <h5>Education</h5>
@@ -64,6 +71,8 @@
                     <li>L'Space Academy NPWEE</li>
                     <li>NASA Academy</li>
                     <li>2nd Place Mechanical Engineering Capstone Project</li>
+                <h5>Additional Training</h5>
+                    <li>CS50 Web programming with Python and JavaScript</li>
             </ul>
 
             
