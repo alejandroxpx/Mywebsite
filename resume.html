@@ -8,14 +8,9 @@
             a{
                 color:black;
             }
-            .resumeimage{
-                padding-left: 50px;
-                display: flex;
-            
-            }
             h2{
                 text-align: center;
-                display: grid;
+ 
             }
             li{
                 font-size: 16px;
@@ -32,14 +27,23 @@
                 height: auto;
             }
             .column{
-                float: left;
+                float: 50%;
                 width: 50%;
+
             }
-            .row:after{
-                padding-top: 100px;
-                content: "";
-                display: table;
+            .row:after{              
+                content:"";
+                display: flex;
                 clear: both;
+            }
+            .row{
+                padding-left: 50px;
+                padding-top: 50px;
+            }
+            @media screen and (max-width: 1100px){
+                .column{
+                    width:100%;
+                }
             }
  
         </style>
@@ -53,29 +57,31 @@
             <a href="contact.html">Contact</a>
         </div> 
 
-        <div class="row"></div>
+        <div class="row">
             <div class="column">
-                <img class="resumeimage" src="/Users/alejandropasillas/Desktop/self_portrait.jpeg" alt="Me">
+                <img src="/Users/alejandropasillas/Desktop/self_portrait.jpeg" alt="Me">
             </div>
 
-            <div class="column"><h3><a  href="/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/Pasillas_Resume.pdf">Resume</a></h2>
+            <div class="column">
+                <h3><a href="/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/Pasillas_Resume.pdf">Resume</a></h3>
             
-            <ul> 
-                <h5>Education</h5>
-                    <li>Bachelor of Science in Mechanical Engineering, The University of Texas at Dallas, </li>
-                <h5>Work Experience</h5>
-                    <li>NASA Academy</li>
-                    <li>First Company</li>
-                <h5>Achievements</h5>
-                    <li>L'Space Academy MCA</li>
-                    <li>L'Space Academy NPWEE</li>
-                    <li>NASA Academy</li>
-                    <li>2nd Place Mechanical Engineering Capstone Project</li>
-                <h5>Additional Training</h5>
-                    <li>CS50 Web programming with Python and JavaScript</li>
-            </ul>
-
-            
+                <p>
+                    <ul> 
+                        <h5>Education</h5>
+                            <li>Bachelor of Science in Mechanical Engineering, The University of Texas at Dallas, </li>
+                        <h5>Work Experience</h5>
+                            <li>NASA Academy</li>
+                            <li>First Company</li>
+                        <h5>Achievements</h5>
+                            <li>L'Space Academy MCA</li>
+                            <li>L'Space Academy NPWEE</li>
+                            <li>NASA Academy</li>
+                            <li>2nd Place Mechanical Engineering Capstone Project</li>
+                        <h5>Additional Training</h5>
+                            <li>CS50 Web programming with Python and JavaScript</li>
+                    </ul>
+    
+                </p>
             
             </div>
 
