@@ -1,26 +1,15 @@
 .title{
-    color:#ffffff;
     padding-left: 40px;
-    padding-top: 80px;
+    padding-top: 40px;
     text-align: left;
-    
-
-}
-.hyperlink{
-
-    padding-right: 40px;
-    text-align: right;
-    font-size: 18px;
 }
 a {
     text-decoration: none;
-    color:#ffffff
 }
 .home{
     
     background-image: url('/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/nyberg_moon.jpg');
     background-size: cover;
-
 }
 .openingmessage{
     padding-top: 400px;
@@ -34,4 +23,11 @@ h1{
 img{
     width: 500px;
     height: auto;
+    padding-top: 100px;;
+}
+.resumehyperlink{
+    text-align: left;
+    color: black;
+    padding-left: 40px;
+    padding-top: 80px;
 }
