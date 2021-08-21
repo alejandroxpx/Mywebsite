@@ -8,8 +8,9 @@ a {
 }
 .home{
     
-    background-image: url('/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/nyberg_moon.jpg');
+    background-image: url('/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/Images/nyberg_moon.jpg');
     background-size: cover;
+    width: 100%;
 }
 .openingmessage{
     padding-top: 400px;
@@ -25,4 +26,19 @@ h1{
     color: black;
     padding-left: 40px;
     padding-top: 80px;
+}
+#idLinkedInIcon{
+    background-color:rgb(0, 102, 170);
+    border-radius:6px;
+    color:white;
+    cursor:pointer;
+    display:inline-block;
+    font:bold 30px Arial, Helvetica, sans-serif;
+    height:35px;
+    margin-top:1px;
+    text-align:center;
+    width:35px;
+}
+#idLinkedInIcon:hover{
+    background-color:#06d;
 }
