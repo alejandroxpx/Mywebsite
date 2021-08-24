@@ -31,6 +31,30 @@
             h3{
                 text-align: justify;
             }
+            /* The alert message box */
+            .alert {
+            padding: 20px;
+            background-color: #f44336; /* Red */
+            color: white;
+            margin-bottom: 15px;
+            }
+
+            /* The close button */
+            .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            }
+
+            /* When moving the mouse over the close button */
+            .closebtn:hover {
+            color: black;
+            }
         </style>
     </head>
     <body>
@@ -41,6 +65,10 @@
                     <a href="resume.html">Resume </a>
                     <a href="contact.html">Contact </a>              
         </div>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <h1>Website is still underconstruction. </h1>
+          </div>
         <h1>First Company</h1>
         <div class="row">
             <div class = "column"><img src="/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/Images/FirstCoTable.JPG" alt="First Co table"></div>      
