@@ -8,7 +8,7 @@ a {
 }
 .home{
     
-    background-image: url('/Users/alejandropasillas/Library/Mobile Documents/com~apple~CloudDocs/Internship:Job/Mywebsite/Images/nyberg_moon.jpg');
+    background-image: url("./Images/nyberg_moon.jpg");
     background-size: cover;
     width: 100%;
 }
